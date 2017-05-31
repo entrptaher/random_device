@@ -22,6 +22,9 @@ let randomDevice = {
       "touch": "false",
       "mobile": "false"
     }
+  },
+  getRandomMixed: function() {
+    return randomDevice[getRandomArray(Object.keys(randomDevice))]()
   }
 }
 
