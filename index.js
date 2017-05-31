@@ -18,14 +18,11 @@ let randomDevice = {
       "width": resolution[0],
       "height": resolution[1],
       "userAgent": getRandomArray(Data.desktops.userAgents),
+      "deviceScaleFactor": 0,
       "touch": "false",
       "mobile": "false"
     }
   }
 }
-
-console.log(randomDevice.getRandomMobile())
-console.log(randomDevice.getRandomTablet())
-console.log(randomDevice.getRandomDesktop())
 
 module.exports = randomDevice;
