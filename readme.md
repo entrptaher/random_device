@@ -1,5 +1,9 @@
 # Usage:
 
+`yarn add https://github.com/entrptaher/random_device.git`
+and
+`let randomDevice = require("random_device")`
+
 ### randomDevice.getRandomMobile()
 
 
